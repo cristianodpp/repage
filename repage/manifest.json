@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "RePage.extension",
+  "description": "Simple Chrome Extension to reload.",
+  "version": "1.4",
+  "browser_action": {
+    "default_title": "Repage Now",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",  
+    "activeTab",
+    "*://*/*"
+  ]
+}
